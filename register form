@@ -1,0 +1,26 @@
+# HTML1
+<!Doctype html>
+<html>
+<head>
+<title>::Register page::
+</title>
+</head>
+<body>
+<form>
+firstname:<input type="text"><br>
+lastname:<input type="text"><br>
+<h3>Gender:</h3><br>
+male:<input type="radio"><br>
+female:<input type="radio"><br>
+checkbox:<input type="checkbox"><br>
+select district:
+<select>
+<option>EG</option>
+<option>WG</option>
+<option>Krishna</option>
+</select>
+email id:<input type="text"><br>
+password:<input type="password"><br>
+<input type="submit"value="register">
+</form>
+</body>
