@@ -1,0 +1,86 @@
+# HTML1
+.cardbody {
+    border: 2px solid rgb(221, 45, 45);
+    width: 20rem;
+    text-align: center;
+}
+.cardbody img{
+    width: 90%;
+    display: block;
+   
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+h3{
+    color: rgb(179, 71, 71);
+}
+s{
+    color: green;
+}
+button{
+    padding: 2%;
+    background-color: green;
+    color: white;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .cardbody {
+        border: 2px solid rgb(221, 45, 45);
+        width: 20rem;
+        text-align: center;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+       
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    h3{
+        color: rgb(179, 71, 71);
+    }
+    s{
+        color: green;
+    }
+    button{
+        padding: 2%;
+        background-color: green;
+        color: white;
+    }
+
+}
+@media only screen and (min-width:481px) and (max-width:760px){                   
+    .cardbody {
+        border: 2px solid rgb(221, 45, 45);
+        width: 20rem;
+        text-align: center;
+    }
+    .cardbody img{
+        width: 90%;
+        display: block;
+        margin-left: left;
+       
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    h3{
+        color: rgb(179, 71, 71);
+    }
+    s{
+        color: green;
+    }
+    button{
+        padding: 2%;
+        background-color: green;
+        color: white;
+    }
+
+}
